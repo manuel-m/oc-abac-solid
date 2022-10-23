@@ -3,12 +3,43 @@
   --accent2-bg: #25807f;
   --accent3-bg: #90225e;
   --accent4-bg: #ffdc00;
+  --h-header: var(--size-8);
+}
+
+.bg1 {
+  background-color: var(--accent1-bg);
+}
+
+.bg2 {
+  background-color: var(--accent2-bg);
+}
+
+.bg3 {
+  background-color: var(--accent3-bg);
+}
+
+.bg4 {
+  background-color: var(--accent4-bg);
 }
 
 body {
   margin: 0;
   font-family: var(--font-mono);
   font-size: var(--font-size-2);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--gray-3);  
+}
+
+.container {
+  width: min(100% -2rem, 50rem);
+  margin-inline: auto;
+}
+
+.page {
+  padding: var(--size-fluid-1);
+  background: var(--gray-1);
+  margin: var(--size-fluid-1);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-6);
+
+
 }
