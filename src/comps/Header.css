@@ -1,0 +1,17 @@
+
+
+header {
+  background-color: var(--accent2-bg);
+  min-height: var(--font-fluid-4);
+  display: flex;
+  position: sticky;
+
+  align-items: center;
+  font-family: var(--font-sans);
+  font-size: var(--font-fluid-4);
+  color: white;
+  padding: var(--size-fluid-1);
+  box-shadow: var(--shadow-4);
+  margin-bottom: var(--size-fluid-1);
+  
+}
